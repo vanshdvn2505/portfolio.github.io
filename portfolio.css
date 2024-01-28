@@ -1,0 +1,331 @@
+*{
+ background-color: #222222;
+ box-sizing: border-box;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+* p{
+    cursor: default;
+}
+* span{
+    cursor: default;
+}
+
+body{
+    height: 100vh;
+}
+.portfolio{
+    margin: 0 auto;
+    width: 70%;
+    height: 100%;
+}
+header{
+    display: flex;
+}
+
+
+
+.name{
+    width: 30%;
+    height: 15vh;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+    border-right: 2px solid #363538;
+    border-bottom: 2px solid #363538;
+
+}
+.options{
+    width: 70%;
+    height: 15vh;
+    color: white;
+}
+
+.download{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    
+}
+.download button{
+    color: white;
+    height: 3rem;
+    width: 7rem;
+    border: transparent;
+    background-color: #353638;
+    cursor: pointer;
+}
+
+.ops{
+    height: 33.5%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 2px solid #363538;
+}
+
+.ops span{
+    display: flex;
+    justify-content: space-evenly;
+    width: 15rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+.main-body{
+    display: flex;
+}
+
+.user{
+    height: 100%;
+    width: 30%;
+    display: block;
+    justify-content: space-evenly;
+    align-items: center;
+    border-right: 2px solid  #353638;
+    padding-top: 2.5%;
+}
+
+
+.photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35%;
+    width: 80%;
+    background-color: black;
+    margin: 0 auto;
+    border: 2px solid #363538;
+}
+
+.pic{
+    height: 100%;
+    width: 100%;
+}
+
+.pic img{
+    background-size: cover;
+    height: 100%;
+    width: 100%;   
+}
+
+
+.hello{
+    display: flex;
+    justify-content: left;
+    margin: 10%;
+    color: #40b783;
+    font-weight: 0.5rem;
+    font-size: 2rem;
+}
+
+.user p{
+    margin: 10%;
+    color: white;
+    font-size: 0.85rem;
+}
+
+.details p{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.contact{
+    margin: 10%;
+    color: #40b783;
+    font-size: 1.85rem;
+    display: flex;
+}
+
+.instagram{
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: white;
+    font-size: 0.85rem;
+    cursor: pointer;
+}
+
+.insta{
+    padding-top: 2%;
+    width: 8%;
+}
+
+.insta1{
+    padding-left: 2%;
+    color: white;
+    text-decoration: none;
+}
+
+.git{
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: white;
+    font-size: 0.85rem;
+    cursor: pointer;
+}
+.gith{
+    padding-top: 2%;
+    width: 8%;
+}
+
+.git1{
+    padding-left: 2%;
+    color: white;
+    text-decoration: none;
+}
+
+.linkedin{
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: white;
+    font-size: 0.85rem;
+    cursor: pointer;
+}
+.linked{
+    padding-top: 2%;
+    width: 8%;
+}
+
+.link{
+    padding-left: 2%;
+    color: white;
+    text-decoration: none;
+}
+
+
+.facebook{
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: white;
+    font-size: 0.85rem;
+    cursor: pointer;
+}
+.face{
+    padding-top: 2%;
+    width: 8%;
+}
+
+.face1{
+    padding-left: 2%;
+    color: white;
+    text-decoration: none;
+}
+
+
+.leetcode{
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: white;
+    font-size: 0.85rem;
+    cursor: pointer;
+}
+.leet{
+    padding-top: 2%;
+    width: 8%;
+}
+
+.code{
+    padding-left: 2%;
+    color: white;
+    text-decoration: none;
+}
+
+
+.profile{
+    width: 70%;
+    height: 100%;
+    display: block;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 4%;
+    padding-top: 2.5%;
+}
+
+
+
+.heading1{
+    color: #40b783;
+    font-size: 3rem;
+}
+
+.content1{
+    color: white;
+    font-size: 0.9rem;
+}
+
+.border{
+    border-left: 2px solid #40b783;
+}
+
+.content1 p{
+    padding-left: 3%;
+}
+
+
+
+.heading2{
+    color: #40b783;
+    font-size: 1.5rem;
+}
+
+.content2{
+    color: white;
+    font-size: 0.9rem;
+}
+
+
+.heading3{
+    color: #40b783;
+    font-size: 1.5rem;
+}
+
+.content3{
+    color: white;
+    font-size: 0.9rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1024px) {
+    .portfolio{
+        width: 100%;
+        margin: 0;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .name{
+        font-size: 1.5rem;
+    }
+    .download button{
+        height: 2.5rem;
+        width: 5rem;
+    }
+}
+
+  
